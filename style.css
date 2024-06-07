@@ -50,3 +50,19 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
+
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+
+@media  screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+    .botao:lat child {
+        border-radius: 0 40px 0 0;
+    }
+}
