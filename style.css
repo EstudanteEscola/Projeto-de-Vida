@@ -15,6 +15,7 @@ body {
     font-family: "Chakra Petch", sans-serif;
 }
 
+
 .conteudo-principal {
     display: flex;
     flex-direction: column;
@@ -53,6 +54,10 @@ body {
 
 .botao:first-child{
     border-radius: 40px 40px 0 0;
+}
+
+.botoes {
+    display: block;
 }
 
 @media  screen and (min-width: 768px) {
